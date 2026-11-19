@@ -1,0 +1,6 @@
+# Zależności potrzebne w kontenerze Airflow (doinstalowywane przez _PIP_ADDITIONAL_REQUIREMENTS)
+pandas
+sqlalchemy
+psycopg2-binary
+boto3
+pyarrow

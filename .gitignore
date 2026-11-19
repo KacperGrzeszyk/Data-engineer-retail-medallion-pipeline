@@ -1,0 +1,29 @@
+# Sekrety
+.env
+.aws/
+*.pem
+*.key
+
+# Dane (nie wrzucamy 45 MB CSV do repo, patrz README -> Dataset)
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.parquet
+
+# Airflow / Docker
+logs/
+config/
+plugins/
+.airflow/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Systemowe
+.DS_Store
+Thumbs.db
